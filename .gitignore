@@ -1,0 +1,25 @@
+# Hugo build output
+public/
+resources/
+
+# Environment files
+.env
+
+# Hugo cache
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Project documentation
+.github/instructions/
+plan.md

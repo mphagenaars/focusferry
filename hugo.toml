@@ -1,0 +1,6 @@
+baseURL = 'https://hgnrs.nl'
+languageCode = 'nl-nl'
+title = 'FocusFerry'
+
+[markup.goldmark.renderer]
+unsafe = true
