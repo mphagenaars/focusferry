@@ -12,7 +12,7 @@ Een automatische nieuwsaggregatie service die tech-content van RSS feeds en YouT
 
 ```bash
 # Clone en setup
-git clone <repository-url>
+git clone https://github.com/mphagenaars/focusferry.git
 cd focusferry
 
 # Lokale development
@@ -29,9 +29,7 @@ cp .env.example .env
 
 **✅ Voltooid:**
 - 0.1 Hello-World deploy - Site live op https://hgnrs.nl
-
-**🔄 Aan de slag:**
-- 0.2 GitHub repo + CI/CD
+- 0.2 GitHub repo setup - Version control en backup
 
 **⏳ Todo:**
 - YouTube API integratie
