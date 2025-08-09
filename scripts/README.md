@@ -33,8 +33,8 @@ Dit script haalt video-metadata op van YouTube kanalen via de YouTube Data API v
 
 ## Wat het script doet
 
-- Haalt de laatste 10 video's op van het Fireship YouTube kanaal
-- Slaat video-metadata op in `data/youtube/Fireship_videos.json`
+- Haalt de laatste 10 video's op van het Matthew Berman YouTube kanaal (AI content)
+- Slaat video-metadata op in `data/youtube/matthew_berman_videos.json`
 - Elke video bevat:
   - video_id
   - title

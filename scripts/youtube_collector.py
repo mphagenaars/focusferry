@@ -77,8 +77,7 @@ class YouTubeCollector:
             playlist_request = self.youtube.playlistItems().list(
                 part='snippet',
                 playlistId=uploads_playlist_id,
-                maxResults=max_results,
-                order='date'
+                maxResults=max_results
             )
             playlist_response = playlist_request.execute()
             
@@ -121,8 +120,15 @@ class YouTubeCollector:
         """Main method to collect videos from a channel"""
         print(f"🔍 Fetching videos from channel: {channel_identifier}")
         
-        # Try to get channel ID (handle both channel ID and username)
-        if channel_identifier.startswith('UC') and len(channel_identifier) == 24:
+        # Use known channel IDs for common channels
+        known_channels = {
+            "fireship": "UCsBjURrPoezykLs9EqgamOA",
+            "matthew_berman": "UCawZsQWqfGSbCI5yjkdVkTA",  # Matthew Berman's AI channel
+        }
+        
+        if channel_identifier.lower() in known_channels:
+            channel_id = known_channels[channel_identifier.lower()]
+        elif channel_identifier.startswith('UC') and len(channel_identifier) == 24:
             # Already a channel ID
             channel_id = channel_identifier
         else:
@@ -146,12 +152,12 @@ class YouTubeCollector:
             return None
 
 def main():
-    """Test the YouTube collector with a known tech channel"""
+    """Test the YouTube collector with Matthew Berman channel"""
     try:
         collector = YouTubeCollector()
         
-        # Test with Fireship channel (known tech YouTuber)
-        test_channel = "Fireship"
+        # Test with Matthew Berman channel (@matthew_berman)
+        test_channel = "matthew_berman"
         result = collector.collect_from_channel(test_channel, max_results=10)
         
         if result:

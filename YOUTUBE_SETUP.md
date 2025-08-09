@@ -23,12 +23,12 @@ cd /home/matthijs/focusferry
 ## Verwacht resultaat:
 
 ```
-🔍 Fetching videos from channel: Fireship
-📺 Channel ID: UCsBjURrPoezykLs9EqgamOA
-✅ Saved 10 videos to /home/matthijs/focusferry/data/youtube/Fireship_videos.json
+🔍 Fetching videos from channel: matthew_berman
+📺 Channel ID: UCawZsQWqfGSbCI5yjkdVkTA
+✅ Saved 10 videos to /home/matthijs/focusferry/data/youtube/matthew_berman_videos.json
 
 🎉 Task 1.1 SUCCESS!
-Generated: /home/matthijs/focusferry/data/youtube/Fireship_videos.json
+Generated: /home/matthijs/focusferry/data/youtube/matthew_berman_videos.json
 Next: Task 1.2 - Transcript collection
 ```
 
