@@ -46,6 +46,65 @@
             border-radius: 6px;
             margin-top: 2rem;
         }
+        .video-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+            overflow: hidden;
+            text-align: left;
+        }
+        .video-thumbnail {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .video-content {
+            padding: 1.5rem;
+        }
+        .video-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .video-summary {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .video-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+        }
+        .video-source {
+            font-weight: 500;
+        }
+        .video-link {
+            background: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+        .video-link:hover {
+            background: #2980b9;
+        }
+        .content-section {
+            margin: 3rem 0;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
         .footer {
             margin-top: 3rem;
             font-size: 0.9rem;
@@ -59,13 +118,65 @@
         <p class="tagline">We ship the news, you keep your focus!</p>
         
         <div class="status">
-            ✅ It works!
+            ✅ Task 1.3 Progress - Eerste content live!
         </div>
         
+        <!-- Content Feed -->
+        {{ if .Site.Data.content_feed }}
+            <div class="content-section">
+                <h2 class="section-title">📺 Latest Tech Videos & Articles</h2>
+                
+                {{ range .Site.Data.content_feed.items }}
+                    <div class="video-card">
+                        {{ if .content.thumbnail_url }}
+                            <img src="{{ .content.thumbnail_url }}" alt="{{ .content.title }}" class="video-thumbnail">
+                        {{ end }}
+                        
+                        <div class="video-content">
+                            <h3 class="video-title">{{ .content.title }}</h3>
+                            
+                            <div class="video-meta">
+                                <span class="video-source">
+                                    {{ if eq .source.platform "youtube" }}
+                                        📺 {{ .source.channel_name }}
+                                    {{ else if eq .source.platform "rss" }}
+                                        📰 {{ .source.site_name }}
+                                    {{ end }}
+                                </span>
+                                <span>{{ dateFormat "2006-01-02" .metadata.published_at }}</span>
+                            </div>
+                            
+                            {{ if .content.ai_summary }}
+                                <p class="video-summary">{{ .content.ai_summary }}</p>
+                            {{ end }}
+                            
+                            <a href="{{ .content.url }}" target="_blank" class="video-link">
+                                {{ if eq .type "video" }}
+                                    ▶️ Bekijk video
+                                {{ else }}
+                                    📖 Lees artikel
+                                {{ end }}
+                            </a>
+                        </div>
+                    </div>
+                {{ end }}
+                
+                <p style="text-align: center; color: #7f8c8d; margin-top: 2rem;">
+                    📊 Totaal {{ .Site.Data.content_feed.total_items }} items • 
+                    Laatste update: {{ dateFormat "2006-01-02 15:04" .Site.Data.content_feed.generated_at }}
+                </p>
+            </div>
+        {{ else }}
+            <div class="info">
+                <h3>⚠️ Geen content beschikbaar</h3>
+                <p>Er is nog geen content geladen in de feed.</p>
+            </div>
+        {{ end }}
+        
         <div class="info">
-            <h3>Task 0.1 Voltooid</h3>
-            <p>De deployment pipeline naar hgnrs.nl werkt! 🎉</p>
-            <p>Volgende stap: GitHub CI/CD opzetten (task 0.2)</p>
+            <h3>🚀 Development Status</h3>
+            <p><strong>Voltooid:</strong> YouTube API, Transcripts, AI Summaries</p>
+            <p><strong>Todo:</strong> RSS feeds, Meerdere kanalen, Filters</p>
         </div>
         
         <div class="footer">

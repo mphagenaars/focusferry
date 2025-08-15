@@ -1,0 +1,27 @@
+{
+  "generated_at": "2025-08-15T20:38:44.965445",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "youtube_AxdWgxINWG8",
+      "type": "video",
+      "source": {
+        "platform": "youtube",
+        "channel_name": "Matthew Berman",
+        "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content": {
+        "title": "ChatGPT-5: The Rubik's Cube Test",
+        "description": "",
+        "ai_summary": "GPT-5 demonstreert indrukwekkende code-generatie: het schrijft een 3JS HTML/JS simulatie van een Rubik's kubus tot 20x20x20! De AI genereert niet alleen de code, maar lost de virtuele kubus ook zelfstandig op, zelfs bij complexe 20x20x20 varianten. Dit benadrukt enorme vooruitgang in AI's programmeer- en probleemoplossende vaardigheden!",
+        "url": "https://youtube.com/watch?v=AxdWgxINWG8",
+        "thumbnail_url": "https://i.ytimg.com/vi/AxdWgxINWG8/mqdefault.jpg"
+      },
+      "metadata": {
+        "published_at": "2025-08-08T23:27:20Z",
+        "collected_at": "2025-08-09T09:22:12.185948",
+        "summarized_at": "2025-08-15T20:38:44.965381"
+      }
+    }
+  ]
+}
