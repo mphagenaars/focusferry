@@ -1,0 +1,7 @@
+# YouTube Transcript - ChatGPT-5: The Rubik's Cube Test
+# Video ID: AxdWgxINWG8
+# Language: en
+# Collected: 2025-08-15T20:01:23.150422
+# URL: https://youtube.com/watch?v=AxdWgxINWG8
+
+I have been playing with GPT5 for about the last week. Let me show you. Can it solve the Rubik's Cube? Write a complete HTML JavaScript program using 3JS that renders a fully interactive Rubik's Cube simulation of any size up to 20x 20x 20. Yes, I am going to show you that. Look what we have here. This looks really good so far. Although we've had other models get this far without being able to rotate it. It gets all wonky. And there it is scrambling perfectly. simulated perfectly. Solve. There it goes. Okay. So, it's definitely moving. It looks like the colors are getting more grouped together. And it sure does look like it's going to solve it. There it goes. Beautiful. 5x 5x5. Let's solve it. Okay. So, it is moving. Looking good. Some of the colors are starting to come together. We see different layers. And there it is. Solved it. You know, we have to try 20x 20 build. There it is. And scramble. Now I can actually see that the frames per second have dipped. Let's try solving it. Oh, it looks like it's almost done. It's getting there. Actually, we might just watch it finish right now. Look at that. So cool.
