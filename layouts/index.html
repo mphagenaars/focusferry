@@ -58,6 +58,11 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+            transition: opacity 0.3s ease;
+            background-color: #f8f9fa;
+        }
+        .video-thumbnail.loading {
+            opacity: 0.5;
         }
         .video-content {
             padding: 1.5rem;
@@ -129,7 +134,11 @@
                 {{ range .Site.Data.content_feed.items }}
                     <div class="video-card">
                         {{ if .content.thumbnail_url }}
-                            <img src="{{ .content.thumbnail_url }}" alt="{{ .content.title }}" class="video-thumbnail">
+                            <img src="{{ .content.thumbnail_url }}" 
+                                 alt="{{ .content.title }}" 
+                                 class="video-thumbnail"
+                                 loading="lazy"
+                                 decoding="async">
                         {{ end }}
                         
                         <div class="video-content">
