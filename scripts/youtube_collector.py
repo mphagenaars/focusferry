@@ -124,6 +124,8 @@ class YouTubeCollector:
         known_channels = {
             "fireship": "UCsBjURrPoezykLs9EqgamOA",
             "matthew_berman": "UCawZsQWqfGSbCI5yjkdVkTA",  # Matthew Berman's AI channel
+            "matt_wolfe": "UChpleBmo18P08aKCIgti38g",  # Matt Wolfe (@mreflow) - AI News & Tech
+            "two_minute_papers": "UCbfYPyITQ-7l4upoX8nvctg",  # Two Minute Papers - AI Research
         }
         
         if channel_identifier.lower() in known_channels:
@@ -152,20 +154,37 @@ class YouTubeCollector:
             return None
 
 def main():
-    """Test the YouTube collector with Matthew Berman channel"""
+    """Collect videos from multiple YouTube channels for Task 1.5"""
     try:
         collector = YouTubeCollector()
         
-        # Test with Matthew Berman channel (@matthew_berman)
-        test_channel = "matthew_berman"
-        result = collector.collect_from_channel(test_channel, max_results=10)
+        # Task 1.5: Multiple channels
+        channels = [
+            "matthew_berman",  # Matthew Berman AI
+            "matt_wolfe",      # Matt Wolfe - AI News  
+            "two_minute_papers"  # Two Minute Papers - AI Research
+        ]
         
-        if result:
-            print(f"\n🎉 Task 1.1 SUCCESS!")
-            print(f"Generated: {result}")
-            print(f"Next: Task 1.2 - Transcript collection")
+        all_results = []
+        
+        for channel in channels:
+            print(f"\n🔍 Processing channel: {channel}")
+            result = collector.collect_from_channel(channel, max_results=10)
+            
+            if result:
+                all_results.append(result)
+                print(f"✅ Successfully collected from {channel}")
+            else:
+                print(f"❌ Failed to collect from {channel}")
+        
+        if all_results:
+            print(f"\n🎉 Task 1.5 SUCCESS!")
+            print(f"Collected from {len(all_results)} channels:")
+            for result in all_results:
+                print(f"  - {result}")
+            print(f"Next: Task 2.1 - RSS feed collection")
         else:
-            print("❌ Task 1.1 FAILED - No videos collected")
+            print("❌ Task 1.5 FAILED - No videos collected from any channel")
             
     except ValueError as e:
         print(f"❌ Configuration error: {e}")

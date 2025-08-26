@@ -23,7 +23,7 @@ except ImportError:
 
 class TranscriptCollector:
     def __init__(self):
-        self.output_dir = Path(__file__).parent.parent / 'data' / 'youtube' / 'transcripts'
+        self.output_dir = Path(__file__).parent.parent / 'transcripts'
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.formatter = TextFormatter()
     

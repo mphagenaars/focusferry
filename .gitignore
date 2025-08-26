@@ -24,3 +24,5 @@ Thumbs.db
 .github/instructions/
 plan.md
 status.md
+__pycache__/
+*.pyc

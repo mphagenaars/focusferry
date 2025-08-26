@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-08-15T20:38:44.965445",
-  "total_items": 1,
+  "generated_at": "2025-08-26T22:02:11.803017",
+  "total_items": 3,
   "items": [
     {
       "id": "youtube_AxdWgxINWG8",
@@ -21,6 +21,48 @@
         "published_at": "2025-08-08T23:27:20Z",
         "collected_at": "2025-08-09T09:22:12.185948",
         "summarized_at": "2025-08-15T20:38:44.965381"
+      }
+    },
+    {
+      "id": "youtube_vpUk5OetUNk",
+      "type": "video",
+      "source": {
+        "platform": "youtube",
+        "channel_name": "Matt Wolfe",
+        "channel_id": "UChpleBmo18P08aKCIgti38g"
+      },
+      "content": {
+        "title": "AI NEWS: 28 Releases and Updates You Missed This Week",
+        "description": "For more information about Loveable click this link and use promo code MWOLFE20YT: http://loveable.dev \n\nThis week’s AI News is packed with 28 major updates from Google, OpenAI, Meta, Runway, ElevenLa...",
+        "url": "https://youtube.com/watch?v=vpUk5OetUNk",
+        "thumbnail_url": "https://i.ytimg.com/vi/vpUk5OetUNk/mqdefault.jpg",
+        "ai_summary": "Deze week: AI-beeldeditors zoals Quinn Image Edit en Nano Banana (van Google?) kunnen Photoshop vervangen met geavanceerde bewerkingen via tekstprompts. Runway introduceert AI-gedreven, interactieve game-werelden met real-time gegenereerde beelden. Google's nieuwe Pixel-telefoons integreren AI die contextueel assisteert, zelfs fotoadvies geeft. Ook: 11 Labs' muziekgeneratie uit video, Google Docs' AI-stem, en Deepseek's 685B-parameter LLM. GPT6 focust op geheugen voor gepersonaliseerde interactie."
+      },
+      "metadata": {
+        "published_at": "2025-08-23T13:01:44Z",
+        "collected_at": "2025-08-26T21:43:27.561720",
+        "summarized_at": "2025-08-26T21:56:21.408484"
+      }
+    },
+    {
+      "id": "youtube_YvuEKrJhjos",
+      "type": "video",
+      "source": {
+        "platform": "youtube",
+        "channel_name": "Two Minute Papers",
+        "channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      },
+      "content": {
+        "title": "DeepMind Just Made The Most Powerful Game AI Engine!",
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGuide:\nRent one of their GPU's with over 16GB of VRAM\nOpen a terminal\nJust get Ollama with this command - https://ol...",
+        "url": "https://youtube.com/watch?v=YvuEKrJhjos",
+        "thumbnail_url": "https://i.ytimg.com/vi/YvuEKrJhjos/mqdefault.jpg",
+        "ai_summary": "DeepMind's Genie 3 AI creëert interactieve gamewerelden uit tekst/afbeeldingen, met ongekende consistentie en camera controle. Het kan zelfs schilderijen tot leven wekken! De doorbraak is dat het AI-agenten (SIMA) traint in *oneindig veel* unieke omgevingen, wat resulteert in superieure leercapaciteiten. Een AI die meerdere games speelde, verslaat zelfs een specialist. Dit opent deuren voor geavanceerdere AI-training en creativiteit!"
+      },
+      "metadata": {
+        "published_at": "2025-08-17T18:09:02Z",
+        "collected_at": "2025-08-26T22:01:37.005955",
+        "summarized_at": "2025-08-26T22:02:11.802984"
       }
     }
   ]
