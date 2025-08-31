@@ -14,6 +14,60 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+def translate_title_with_openrouter(title):
+    """Translate article title to Dutch using OpenRouter AI"""
+    api_key = os.getenv('OPENROUTER_API_KEY')
+    
+    if not api_key or api_key == 'your_openrouter_api_key_here':
+        raise ValueError("OPENROUTER_API_KEY not set in .env file")
+    
+    prompt = f"""Je bent een tech journalist. Vertaal deze Engelse artikeltitel naar het Nederlands.
+
+Regels voor de vertaling:
+- Behoud technische termen die gangbaar zijn in het Nederlands (AI, API, GPU, etc.)
+- Maak het aantrekkelijk en nieuwswaardig
+- Behoud de urgentie en impact van de originele titel
+- Maximaal 100 karakters
+- Gebruik geen aanhalingstekens
+
+Engelse titel: {title}
+
+Nederlandse titel:"""
+
+    headers = {
+        'Authorization': f'Bearer {api_key}',
+        'Content-Type': 'application/json'
+    }
+    
+    data = {
+        'model': 'google/gemini-2.5-flash',
+        'messages': [
+            {
+                'role': 'user',
+                'content': prompt
+            }
+        ],
+        'max_tokens': 50,
+        'temperature': 0.5
+    }
+    
+    response = requests.post(
+        'https://openrouter.ai/api/v1/chat/completions',
+        headers=headers,
+        json=data
+    )
+    
+    if response.status_code != 200:
+        raise Exception(f"OpenRouter API error: {response.status_code} - {response.text}")
+    
+    result = response.json()
+    translated_title = result['choices'][0]['message']['content'].strip()
+    
+    # Remove quotes if AI added them
+    translated_title = translated_title.strip('"\'')
+    
+    return translated_title
+
 def summarize_with_openrouter(title, description):
     """Generate summary using OpenRouter AI (Gemini 2.5 Flash)"""
     api_key = os.getenv('OPENROUTER_API_KEY')
@@ -89,63 +143,71 @@ def save_content_feed(data, content_path):
     print(f"💾 Updated content feed: {content_path}")
 
 def summarize_rss_articles():
-    """Add AI summaries to RSS articles in the content feed"""
+    """Add AI summaries and Dutch titles to RSS articles in the content feed"""
     
     # Load content feed
     content_data, content_path = get_content_feed()
     
-    # Find RSS articles without summaries
+    # Find RSS articles without summaries OR without Dutch titles
     rss_articles = []
     for item in content_data['items']:
         if (item['source']['platform'] == 'rss' and 
-            'ai_summary' not in item['content']):
+            ('ai_summary' not in item['content'] or 'dutch_title' not in item['content'])):
             rss_articles.append(item)
     
     if not rss_articles:
-        print("ℹ️  All RSS articles already have AI summaries")
+        print("ℹ️  All RSS articles already have AI summaries and Dutch titles")
         return True
     
-    print(f"🤖 Found {len(rss_articles)} RSS articles to summarize")
+    print(f"🤖 Found {len(rss_articles)} RSS articles to process")
     
-    # Summarize each article
-    summarized_count = 0
+    # Process each article
+    processed_count = 0
     for article in rss_articles:
         try:
             print(f"\n📰 Processing: {article['content']['title']}")
             
-            # Generate summary
-            summary = summarize_with_openrouter(
-                article['content']['title'],
-                article['content']['description']
-            )
+            # Generate Dutch title if missing
+            if 'dutch_title' not in article['content']:
+                print("🔤 Translating title to Dutch...")
+                dutch_title = translate_title_with_openrouter(article['content']['title'])
+                article['content']['dutch_title'] = dutch_title
+                print(f"✅ Dutch title: {dutch_title}")
             
-            print(f"✅ Summary ({len(summary)} chars): {summary}")
+            # Generate summary if missing
+            if 'ai_summary' not in article['content']:
+                print("📝 Generating AI summary...")
+                summary = summarize_with_openrouter(
+                    article['content']['title'],
+                    article['content']['description']
+                )
+                
+                if len(summary) > 400:
+                    print(f"⚠️  Warning: Summary is {len(summary)} chars (over 400 limit)")
+                
+                article['content']['ai_summary'] = summary
+                article['metadata']['summarized_at'] = datetime.now().isoformat()
+                print(f"✅ Summary ({len(summary)} chars): {summary}")
             
-            if len(summary) > 400:
-                print(f"⚠️  Warning: Summary is {len(summary)} chars (over 400 limit)")
-            
-            # Add summary to article
-            article['content']['ai_summary'] = summary
-            article['metadata']['summarized_at'] = datetime.now().isoformat()
-            
-            summarized_count += 1
+            processed_count += 1
             
         except Exception as e:
-            print(f"❌ Error summarizing article '{article['content']['title']}': {e}")
+            print(f"❌ Error processing article '{article['content']['title']}': {e}")
             continue
     
-    if summarized_count > 0:
+    if processed_count > 0:
         # Save updated content feed
         save_content_feed(content_data, content_path)
         
-        print(f"\n🎉 Task 2.2 SUCCESS!")
-        print(f"📊 Summarized {summarized_count} RSS articles")
-        print(f"💾 Content feed updated with AI summaries")
+        print(f"\n🎉 Task 2.2 ENHANCED SUCCESS!")
+        print(f"📊 Processed {processed_count} RSS articles")
+        print(f"🔤 Added Dutch titles + AI summaries")
+        print(f"💾 Content feed updated")
     else:
         print(f"\n❌ Task 2.2 FAILED!")
-        print("No articles were successfully summarized")
+        print("No articles were successfully processed")
     
-    return summarized_count > 0
+    return processed_count > 0
 
 def main():
     """Main function to test RSS article summarization"""

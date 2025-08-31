@@ -145,7 +145,13 @@
                         {{ end }}
                         
                         <div class="content-body">
-                            <h3 class="content-title">{{ .content.title }}</h3>
+                            <h3 class="content-title">
+                                {{ if .content.dutch_title }}
+                                    {{ .content.dutch_title }}
+                                {{ else }}
+                                    {{ .content.title }}
+                                {{ end }}
+                            </h3>
                             
                             <div class="content-meta">
                                 <span class="content-source">
