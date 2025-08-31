@@ -1,7 +1,37 @@
 {
-  "collected_at": "2025-08-26T22:01:36.699015",
+  "collected_at": "2025-08-31T13:02:42.184629",
   "total_videos": 10,
   "videos": [
+    {
+      "video_id": "TPiopAtoho4",
+      "title": "AI News: Adobe Just Gave In to Google’s AI",
+      "description": "In this video we're diving into all the latest tools and demos to keep you up to date on the latest AI tech out there. We'll also cover all the biggest news stories from Google, Adobe, Microsoft, xAI,...",
+      "published_at": "2025-08-30T13:01:01Z",
+      "channel_title": "Matt Wolfe",
+      "channel_id": "UChpleBmo18P08aKCIgti38g",
+      "thumbnail_url": "https://i.ytimg.com/vi/TPiopAtoho4/mqdefault.jpg",
+      "collected_at": "2025-08-31T13:02:42.183437"
+    },
+    {
+      "video_id": "Y4B4QuDxCos",
+      "title": "This AI Agent Does 12-months of work in 10-minutes",
+      "description": "Click here to learn more about MindStudio: yai.link/mindstudioxmattwolfe\nAnd check out my video on MindStudio's channel where I automate an entire content business: https://youtu.be/KKSHJwC7mik?si=mee...",
+      "published_at": "2025-08-28T13:01:09Z",
+      "channel_title": "Matt Wolfe",
+      "channel_id": "UChpleBmo18P08aKCIgti38g",
+      "thumbnail_url": "https://i.ytimg.com/vi/Y4B4QuDxCos/mqdefault.jpg",
+      "collected_at": "2025-08-31T13:02:42.183482"
+    },
+    {
+      "video_id": "gIm95i9X_Mk",
+      "title": "Alexa Just Leveled Up",
+      "description": "Alexa just leveled up.\n\nThe new Alexa+ is smarter, more intuitive, and works across all compatible devices throughout your home.\n\nAnd the best part? It’s free during the Early Access phase. Join the l...",
+      "published_at": "2025-08-27T13:48:01Z",
+      "channel_title": "Matt Wolfe",
+      "channel_id": "UChpleBmo18P08aKCIgti38g",
+      "thumbnail_url": "https://i.ytimg.com/vi/gIm95i9X_Mk/mqdefault.jpg",
+      "collected_at": "2025-08-31T13:02:42.183499"
+    },
     {
       "video_id": "vpUk5OetUNk",
       "title": "AI NEWS: 28 Releases and Updates You Missed This Week",
@@ -10,7 +40,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/vpUk5OetUNk/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698555"
+      "collected_at": "2025-08-31T13:02:42.183511"
     },
     {
       "video_id": "9eYKbppNbk8",
@@ -20,7 +50,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/9eYKbppNbk8/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698576"
+      "collected_at": "2025-08-31T13:02:42.183814"
     },
     {
       "video_id": "lQGmOdDc43A",
@@ -30,7 +60,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/lQGmOdDc43A/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698582"
+      "collected_at": "2025-08-31T13:02:42.183832"
     },
     {
       "video_id": "X930IW7GeAQ",
@@ -40,7 +70,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/X930IW7GeAQ/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698587"
+      "collected_at": "2025-08-31T13:02:42.183843"
     },
     {
       "video_id": "ZXywE1qKyRU",
@@ -50,7 +80,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/ZXywE1qKyRU/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698592"
+      "collected_at": "2025-08-31T13:02:42.183854"
     },
     {
       "video_id": "hohBB5VM37E",
@@ -60,7 +90,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/hohBB5VM37E/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698597"
+      "collected_at": "2025-08-31T13:02:42.183865"
     },
     {
       "video_id": "d0HBFCUUfgM",
@@ -70,37 +100,7 @@
       "channel_title": "Matt Wolfe",
       "channel_id": "UChpleBmo18P08aKCIgti38g",
       "thumbnail_url": "https://i.ytimg.com/vi/d0HBFCUUfgM/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698602"
-    },
-    {
-      "video_id": "z17HXdNYti0",
-      "title": "The Biggest Week For AI News in 2025 (So Far)",
-      "description": "Create your own AI avatar for free with Invideo. If you’re consistently producing content or UGC ads, check out their “Generate Plan” to create multiple videos/ads starting at $100/month. Learn more a...",
-      "published_at": "2025-08-09T13:01:51Z",
-      "channel_title": "Matt Wolfe",
-      "channel_id": "UChpleBmo18P08aKCIgti38g",
-      "thumbnail_url": "https://i.ytimg.com/vi/z17HXdNYti0/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698607"
-    },
-    {
-      "video_id": "K_mlC_aeDSU",
-      "title": "Complete ChatGPT-5 Breakdown and First Impressions",
-      "description": "A significant day for AI as OpenAI releases GPT-5. In this video, I'll walk you through all the announcements and demos, and share insights about what you can do with the newest and most powerful LLM....",
-      "published_at": "2025-08-07T23:55:46Z",
-      "channel_title": "Matt Wolfe",
-      "channel_id": "UChpleBmo18P08aKCIgti38g",
-      "thumbnail_url": "https://i.ytimg.com/vi/K_mlC_aeDSU/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698611"
-    },
-    {
-      "video_id": "s2E_GlPCTVo",
-      "title": "This Software Puts Results First",
-      "description": "We’re entering the era of AI-first, agentic services — where software doesn’t just assist, it acts. Globant’s AI Pods are your fastest way to start building these next-gen services into your business....",
-      "published_at": "2025-08-07T13:09:31Z",
-      "channel_title": "Matt Wolfe",
-      "channel_id": "UChpleBmo18P08aKCIgti38g",
-      "thumbnail_url": "https://i.ytimg.com/vi/s2E_GlPCTVo/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:36.698616"
+      "collected_at": "2025-08-31T13:02:42.183876"
     }
   ]
 }

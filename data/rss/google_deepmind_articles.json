@@ -1,0 +1,117 @@
+{
+  "collected_at": "2025-08-31T13:02:41.298809",
+  "source_name": "google_deepmind",
+  "total_articles": 10,
+  "articles": [
+    {
+      "article_id": "rss_746429d67554",
+      "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
+      "description": "Google DeepMind CEO Demis Hassabis talks about AI’s momentum, from new models to the Game Arena benchmark.",
+      "url": "https://blog.google/technology/google-deepmind/ai-release-notes-podcast-demis-hassabis/",
+      "published_at": "2025-08-11T20:35:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296124"
+    },
+    {
+      "article_id": "rss_b924cb4ec6d5",
+      "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
+      "description": "Our Perch AI model helps conservationists analyze bioacoustic data to protect endangered species like birds and coral reefs.",
+      "url": "https://blog.google/technology/google-deepmind/perch-ai-model/",
+      "published_at": "2025-08-07T15:34:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296346"
+    },
+    {
+      "article_id": "rss_73d8c4737fa4",
+      "title": "The latest AI news we announced in July",
+      "description": "Here are Google’s latest AI updates from July 2025",
+      "url": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
+      "published_at": "2025-08-07T14:30:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296525"
+    },
+    {
+      "article_id": "rss_424c76c3c1da",
+      "title": "How we’re using AI to help track and predict cyclones",
+      "description": "We’re partnering with the National Hurricane Center, supporting their forecasts and warnings this cyclone season.",
+      "url": "https://blog.google/technology/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/",
+      "published_at": "2025-08-04T19:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296683"
+    },
+    {
+      "article_id": "rss_b22b556a8665",
+      "title": "Rethinking how we measure AI intelligence",
+      "description": "Kaggle Game Arena is a new platform where AI models compete head-to-head in complex strategic games.",
+      "url": "https://blog.google/technology/ai/kaggle-game-arena/",
+      "published_at": "2025-08-04T16:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296826"
+    },
+    {
+      "article_id": "rss_f403524be35c",
+      "title": "Try Deep Think in the Gemini app",
+      "description": "Deep Think utilizes extended, parallel thinking and novel reinforcement learning techniques for significantly improved problem-solving.",
+      "url": "https://blog.google/products/gemini/gemini-2-5-deep-think/",
+      "published_at": "2025-08-01T11:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.296967"
+    },
+    {
+      "article_id": "rss_98adc76e0db8",
+      "title": "Listen to a conversation about the newest AI capabilities in Search.",
+      "description": "What does it take to enable billions of people to truly ask anything in Search?In the latest episode of the Google AI: Release Notes podcast, host Logan Kilpatrick sits …",
+      "url": "https://blog.google/products/search/release-notes-podcast-search/",
+      "published_at": "2025-07-23T19:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.297106"
+    },
+    {
+      "article_id": "rss_5cc2714737e9",
+      "title": "Google DeepMind’s new AI model helps historians interpret ancient texts.",
+      "description": "Aeneas, a new AI model, helps historians interpret, attribute and restore ancient inscriptions.",
+      "url": "https://blog.google/technology/google-deepmind/aeneas/",
+      "published_at": "2025-07-23T16:54:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.297235"
+    },
+    {
+      "article_id": "rss_0d50f39cabf9",
+      "title": "The latest AI news we announced in June",
+      "description": "Here are Google’s latest AI updates from June 2025",
+      "url": "https://blog.google/technology/ai/google-ai-updates-june-2025/",
+      "published_at": "2025-07-02T16:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.297495"
+    },
+    {
+      "article_id": "rss_60039ce12454",
+      "title": "We’re expanding our Gemini 2.5 family of models",
+      "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
+      "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
+      "published_at": "2025-06-17T16:00:00+00:00",
+      "source_title": "Google DeepMind",
+      "source_url": "https://blog.google/technology/google-deepmind/",
+      "source_domain": "blog.google",
+      "collected_at": "2025-08-31T13:02:41.297674"
+    }
+  ]
+}

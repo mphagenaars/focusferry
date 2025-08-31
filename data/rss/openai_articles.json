@@ -1,0 +1,117 @@
+{
+  "collected_at": "2025-08-31T13:02:40.909871",
+  "source_name": "openai",
+  "total_articles": 10,
+  "articles": [
+    {
+      "article_id": "introducing-gpt-realtime",
+      "title": "Introducing gpt-realtime and Realtime API updates",
+      "description": "We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support.",
+      "url": "https://openai.com/index/introducing-gpt-realtime",
+      "published_at": "2025-08-28T10:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908688"
+    },
+    {
+      "article_id": "supporting-nonprofit-and-community-innovation",
+      "title": "Supporting nonprofit and community innovation",
+      "description": "OpenAI launches a $50M People-First AI Fund to help U.S. nonprofits scale impact with AI. Applications open Sept 8–Oct 8, 2025 for grants in education, healthcare, research, and more.",
+      "url": "https://openai.com/index/supporting-nonprofit-and-community-innovation",
+      "published_at": "2025-08-28T05:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908756"
+    },
+    {
+      "article_id": "collective-alignment-aug-2025-updates",
+      "title": "Collective alignment: public input on our Model Spec",
+      "description": "OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better reflect diverse human values and perspectives.",
+      "url": "https://openai.com/index/collective-alignment-aug-2025-updates",
+      "published_at": "2025-08-27T13:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908803"
+    },
+    {
+      "article_id": "openai-anthropic-safety-evaluation",
+      "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
+      "description": "OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbreaking, and more—highlighting progress, challenges, and the value of cross-lab collaboration.",
+      "url": "https://openai.com/index/openai-anthropic-safety-evaluation",
+      "published_at": "2025-08-27T10:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908842"
+    },
+    {
+      "article_id": "helping-people-when-they-need-it-most",
+      "title": "Helping people when they need it most",
+      "description": "How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.",
+      "url": "https://openai.com/index/helping-people-when-they-need-it-most",
+      "published_at": "2025-08-26T04:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908878"
+    },
+    {
+      "article_id": "learning-accelerator",
+      "title": "Announcing the OpenAI Learning Accelerator",
+      "description": "OpenAI announces the launch of OpenAI Learning Accelerator, an initiative that aims to bring advanced AI to India’s educators and millions of learners nationwide through accelerated AI research, training, and deployment.",
+      "url": "https://openai.com/global-affairs/learning-accelerator",
+      "published_at": "2025-08-25T06:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908923"
+    },
+    {
+      "article_id": "accelerating-life-sciences-research-with-retro-biosciences",
+      "title": "Accelerating life sciences research",
+      "description": "Discover how a specialized AI model, GPT-4b micro, helped OpenAI and Retro Bio engineer more effective proteins for stem cell therapy and longevity research.",
+      "url": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+      "published_at": "2025-08-22T08:30:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908956"
+    },
+    {
+      "article_id": "blue-j",
+      "title": "Scaling domain expertise in complex, regulated domains",
+      "description": "Discover how Blue J is transforming tax research with AI-powered tools built on GPT-4.1. By combining domain expertise with Retrieval-Augmented Generation, Blue J delivers fast, accurate, and fully-cited tax answers—trusted by professionals across the US, Canada, and the UK.",
+      "url": "https://openai.com/index/blue-j",
+      "published_at": "2025-08-21T10:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.908988"
+    },
+    {
+      "article_id": "mixi",
+      "title": "Mixi reimagines communication with ChatGPT",
+      "description": "Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create a secure environment for innovation.",
+      "url": "https://openai.com/index/mixi",
+      "published_at": "2025-08-20T17:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.909018"
+    },
+    {
+      "article_id": "doordash-mariana-garavaglia",
+      "title": "Q&A with DoorDash’s CPO, Mariana Garavaglia",
+      "description": "Learn how DoorDash is scaling AI adoption to empower employees to build, learn, and innovate faster in a conversation with Chief People Officer Mariana Garavaglia.",
+      "url": "https://openai.com/index/doordash-mariana-garavaglia",
+      "published_at": "2025-08-18T00:00:00+00:00",
+      "source_title": "OpenAI News",
+      "source_url": "https://openai.com/news",
+      "source_domain": "openai.com",
+      "collected_at": "2025-08-31T13:02:40.909048"
+    }
+  ]
+}

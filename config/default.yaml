@@ -1,0 +1,81 @@
+# FocusFerry Content Sources Configuration
+# This file defines all content sources for the news aggregation
+
+content_sources:
+  # RSS Feeds - Articles from tech blogs and news sites
+  rss_feeds:
+    - name: "OpenAI"
+      url: "https://openai.com/news/rss.xml"
+      enabled: true
+      max_articles: 10
+      description: "Official OpenAI news and updates"
+      
+    - name: "Google DeepMind"
+      url: "https://blog.google/technology/google-deepmind/rss/"
+      enabled: true
+      max_articles: 10
+      description: "AI research from Google DeepMind"
+      
+    - name: "Ars Technica Tech Lab"
+      url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+      enabled: true
+      max_articles: 10
+      description: "In-depth technical analysis and security news"
+      
+    # Future feeds (disabled for now)
+    - name: "TechCrunch AI"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      enabled: false
+      max_articles: 5
+      description: "AI industry news and startup coverage"
+
+  # YouTube Channels - Tech videos and AI content
+  youtube_channels:
+    - name: "Matthew Berman"
+      identifier: "matthew_berman"
+      channel_id: "UCawZsQWqfGSbCI5yjkdVkTA"
+      enabled: true
+      max_videos: 10
+      description: "AI news, reviews, and tutorials"
+      
+    - name: "Matt Wolfe"
+      identifier: "matt_wolfe"
+      channel_id: "UChpleBmo18P08aKCIgti38g"
+      enabled: true
+      max_videos: 10
+      description: "AI tools and technology reviews"
+      
+    - name: "Two Minute Papers"
+      identifier: "two_minute_papers"
+      channel_id: "UCbfYPyITQ-7l4upoX8nvctg"
+      enabled: true
+      max_videos: 10
+      description: "AI research papers explained"
+
+# AI Processing Settings
+ai_settings:
+  # OpenRouter.ai configuration
+  summarization:
+    enabled: true
+    max_summary_length: 400
+    language: "dutch"
+    model: "google/gemini-2.5-flash"
+    
+  # Content filtering (future feature)
+  filtering:
+    enabled: false
+    relevance_threshold: 0.7
+
+# Collection Settings
+collection_settings:
+  # How often to collect content (in hours)
+  collection_frequency: 12
+  
+  # Content age limits
+  max_content_age_days: 7
+  
+  # Rate limiting
+  requests_per_minute: 30
+  
+  # Duplicate detection
+  deduplicate_content: true

@@ -1,6 +1,6 @@
 # FocusFerry - Development Status
 
-**Last updated**: August 26, 2025  
+**Last updated**: August 31, 2025  
 **Current milestone**: Basic infrastructure (Tasks 0.x → 1.x)
 
 ## 📊 Task Progress
@@ -14,10 +14,10 @@
 | **1.3** | Video samenvatten & tonen | ✅ DONE | Aug 15, 2025 | Eerste content op site |
 | **1.4** | Thumbnail lazy-load | ✅ DONE | Aug 26, 2025 | Native browser lazy loading geïmplementeerd |
 | **1.5** | Meerdere kanalen | ✅ DONE | Aug 26, 2025 | Matthew Berman + Matt Wolfe kanalen |
-| **2.1** | RSS-feed ophalen | ⏳ TODO | - | Start artikelstroom |
-| **2.2** | Artikel samenvatten | ⏳ TODO | - | AI-flow validatie |
-| **2.3** | RSS-item tonen | ⏳ TODO | - | Video + artikel samen |
-| **2.4** | Meerdere feeds | ⏳ TODO | - | Volledig RSS MVP |
+| **2.1** | RSS-feed ophalen | ✅ DONE | Aug 31, 2025 | OpenAI RSS feed geïntegreerd |
+| **2.2** | Artikel samenvatten | ✅ DONE | Aug 31, 2025 | AI samenvattingen voor RSS artikelen |
+| **2.3** | RSS-item tonen | ✅ DONE | Aug 31, 2025 | Video + artikel samen getoond |
+| **2.4** | Meerdere feeds | ✅ DONE | Aug 31, 2025 | Configuratie-driven architectuur geïmplementeerd |
 | **3.1** | Transcript fallback | ⏳ TODO | - | Robuustheid verbeteren |
 | **3.2** | Error-logging | ⏳ TODO | - | Debugging verbeteren |
 | **4.1** | Rate-limit wrapper | ⏳ TODO | - | API-bescherming |
@@ -33,16 +33,16 @@
 
 ## 🎯 Current Focus
 
-**Next up**: Task 2.1 - RSS-feed ophalen
-- Doel: Een RSS-feed toevoegen naast YouTube kanalen
-- Success criteria: Eerste RSS artikelen zichtbaar op de site
-- Geschatte tijd: ~1.5 uur
+**Next up**: Task 3.1 - Transcript fallback
+- Doel: Robuuste transcript ophaling met fallbacks
+- Success criteria: Video's zonder transcripts worden graceful overgeslagen
+- Geschatte tijd: ~45 min (error handling verbeteren)
 
 ## 📈 Milestones
 
 - ✅ **Infrastructure Setup** (Tasks 0.1-0.2) - COMPLETED
 - ✅ **Video Pipeline** (Tasks 1.1-1.5) - COMPLETED  
-- 🔄 **Article Pipeline** (Tasks 2.1-2.4) - IN PROGRESS
+- ✅ **Article Pipeline** (Tasks 2.1-2.4) - COMPLETED
 - ⏳ **Enhancement** (Tasks 3.1+) - TODO
 
 ## 🚀 Deployment History
@@ -50,7 +50,8 @@
 | Date | Version | Changes |
 |------|---------|---------|
 | Aug 8, 2025 | v0.1 | Initial Hugo site deployment |
-| Aug 26, 2025 | v1.5 | Meerdere YouTube kanalen (Matthew Berman + Matt Wolfe) |
+| Aug 31, 2025 | v2.1 | RSS artikelen toegevoegd (OpenAI feed) + mixed content layout |
+| Aug 31, 2025 | v2.4 | Multiple RSS feeds + unified configuration architecture |
 
 ---
 

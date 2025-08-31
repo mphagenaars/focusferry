@@ -1,7 +1,17 @@
 {
-  "collected_at": "2025-08-26T22:01:37.006512",
+  "collected_at": "2025-08-31T13:02:42.386173",
   "total_videos": 10,
   "videos": [
+    {
+      "video_id": "EEvewoxv0TA",
+      "title": "This Isn’t AI - It’s Even Wilder: Squishy Physics That Learn to Move!",
+      "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2405.14595\n\n📝 My paper on simulations that look almost lik...",
+      "published_at": "2025-08-28T13:52:57Z",
+      "channel_title": "Two Minute Papers",
+      "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "thumbnail_url": "https://i.ytimg.com/vi/EEvewoxv0TA/mqdefault.jpg",
+      "collected_at": "2025-08-31T13:02:42.385244"
+    },
     {
       "video_id": "YvuEKrJhjos",
       "title": "DeepMind Just Made The Most Powerful Game AI Engine!",
@@ -10,7 +20,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/YvuEKrJhjos/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.005955"
+      "collected_at": "2025-08-31T13:02:42.385293"
     },
     {
       "video_id": "Ab9gJv-lrOw",
@@ -20,7 +30,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/Ab9gJv-lrOw/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.005976"
+      "collected_at": "2025-08-31T13:02:42.385306"
     },
     {
       "video_id": "I1_iXwa-7dA",
@@ -30,7 +40,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/I1_iXwa-7dA/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.005986"
+      "collected_at": "2025-08-31T13:02:42.385318"
     },
     {
       "video_id": "ecRFKfNy-Ms",
@@ -40,7 +50,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/ecRFKfNy-Ms/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.005993"
+      "collected_at": "2025-08-31T13:02:42.385329"
     },
     {
       "video_id": "4X5T2eeG7iw",
@@ -50,7 +60,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/4X5T2eeG7iw/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.005999"
+      "collected_at": "2025-08-31T13:02:42.385339"
     },
     {
       "video_id": "vyOUX-uB_PQ",
@@ -60,7 +70,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/vyOUX-uB_PQ/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.006005"
+      "collected_at": "2025-08-31T13:02:42.385352"
     },
     {
       "video_id": "6CSq2CuGBD0",
@@ -70,7 +80,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/6CSq2CuGBD0/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.006012"
+      "collected_at": "2025-08-31T13:02:42.385364"
     },
     {
       "video_id": "4bFDPVe6BHs",
@@ -80,7 +90,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/4bFDPVe6BHs/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.006019"
+      "collected_at": "2025-08-31T13:02:42.385374"
     },
     {
       "video_id": "TzIKbjuSy2A",
@@ -90,17 +100,7 @@
       "channel_title": "Two Minute Papers",
       "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
       "thumbnail_url": "https://i.ytimg.com/vi/TzIKbjuSy2A/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.006026"
-    },
-    {
-      "video_id": "AVeQfSab9to",
-      "title": "NVIDIA’s New AI Cheated At Parkour…And Got Fixed!",
-      "description": "❤️ Check out DeepInfra and run DeepSeek or many other AI projects: https://deepinfra.com/papers\n\n📝 The paper \"PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers\" is...",
-      "published_at": "2025-07-08T16:22:32Z",
-      "channel_title": "Two Minute Papers",
-      "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "thumbnail_url": "https://i.ytimg.com/vi/AVeQfSab9to/mqdefault.jpg",
-      "collected_at": "2025-08-26T22:01:37.006033"
+      "collected_at": "2025-08-31T13:02:42.385387"
     }
   ]
 }

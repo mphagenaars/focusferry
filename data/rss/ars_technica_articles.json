@@ -1,0 +1,117 @@
+{
+  "collected_at": "2025-08-31T12:35:01.244831",
+  "source_name": "ars_technica",
+  "total_articles": 10,
+  "articles": [
+    {
+      "article_id": "rss_d94e5f7c76ce",
+      "title": "Zuckerberg’s AI hires disrupt Meta with swift exits and threats to leave",
+      "description": "Longtime acolytes are sidelined as CEO directs biggest leadership reorganization in two decades.",
+      "url": "https://arstechnica.com/ai/2025/08/zuckerbergs-ai-hires-disrupt-meta-with-swift-exits-and-threats-to-leave/",
+      "published_at": "2025-08-29T18:02:22+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.241206"
+    },
+    {
+      "article_id": "rss_9987a0607a78",
+      "title": "Google warns that mass data theft hitting Salesloft AI agent has grown bigger",
+      "description": "Assume all Salesloft credentials are compromised after Workspace breach, Google says.",
+      "url": "https://arstechnica.com/security/2025/08/google-warns-that-mass-data-theft-hitting-salesloft-ai-agent-has-grown-bigger/",
+      "published_at": "2025-08-29T12:15:00+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.241440"
+    },
+    {
+      "article_id": "rss_7016ec47588c",
+      "title": "High-severity vulnerability in Passwordstate credential manager. Patch now.",
+      "description": "Vulnerability can be exploited to gain access to customers' crown jewels.",
+      "url": "https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/",
+      "published_at": "2025-08-28T18:46:43+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.241612"
+    },
+    {
+      "article_id": "rss_94560337ccc3",
+      "title": "Unpacking Passkeys Pwned: Possibly the most specious research in decades",
+      "description": "Researchers take note: When the endpoint is compromised, all bets are off.",
+      "url": "https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/",
+      "published_at": "2025-08-28T13:00:10+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.241761"
+    },
+    {
+      "article_id": "rss_fc44feb1976d",
+      "title": "The personhood trap: How AI fakes human personality",
+      "description": "AI assistants don't have fixed personalities—just patterns of output guided by humans.",
+      "url": "https://arstechnica.com/information-technology/2025/08/the-personhood-trap-how-ai-fakes-human-personality/",
+      "published_at": "2025-08-28T11:00:57+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.241938"
+    },
+    {
+      "article_id": "rss_50b507a22455",
+      "title": "Anthropic’s auto-clicking AI Chrome extension raises browser-hijacking concerns",
+      "description": "Malicious websites can embed invisible commands that AI agents will follow blindly.",
+      "url": "https://arstechnica.com/information-technology/2025/08/new-ai-browser-agents-create-risks-if-sites-hijack-them-with-hidden-instructions/",
+      "published_at": "2025-08-27T16:17:29+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.242260"
+    },
+    {
+      "article_id": "rss_a334048d135d",
+      "title": "OpenAI admits ChatGPT safeguards fail during extended conversations",
+      "description": "ChatGPT allegedly provided suicide encouragement to teen after moderation safeguards failed.",
+      "url": "https://arstechnica.com/information-technology/2025/08/after-teen-suicide-openai-claims-it-is-helping-people-when-they-need-it-most/",
+      "published_at": "2025-08-26T22:08:38+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.242437"
+    },
+    {
+      "article_id": "rss_4a9abd7ff72f",
+      "title": "Senator castigates federal judiciary for ignoring “basic cybersecurity”",
+      "description": "Breaches in 2020 and 2025, reportedly by foreign adversaries, exposed confidential files.",
+      "url": "https://arstechnica.com/security/2025/08/senator-to-supreme-court-justice-federal-court-hacks-threaten-us-security/",
+      "published_at": "2025-08-25T19:58:07+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.242579"
+    },
+    {
+      "article_id": "rss_ee7cef137da5",
+      "title": "With AI chatbots, Big Tech is moving fast and breaking people",
+      "description": "Why AI chatbots validate grandiose fantasies about revolutionary discoveries that don't exist.",
+      "url": "https://arstechnica.com/information-technology/2025/08/with-ai-chatbots-big-tech-is-moving-fast-and-breaking-people/",
+      "published_at": "2025-08-25T11:00:24+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.243028"
+    },
+    {
+      "article_id": "rss_77ffb23816a5",
+      "title": "College student’s “time travel” AI experiment accidentally outputs real 1834 history",
+      "description": "Hobbyist training AI on Victorian texts gets an unexpected history lesson from his own creation.",
+      "url": "https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/",
+      "published_at": "2025-08-22T22:13:56+00:00",
+      "source_title": "Biz & IT – Ars Technica",
+      "source_url": "https://arstechnica.com",
+      "source_domain": "arstechnica.com",
+      "collected_at": "2025-08-31T12:35:01.243332"
+    }
+  ]
+}

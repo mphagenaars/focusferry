@@ -1,26 +1,335 @@
 {
-  "generated_at": "2025-08-26T22:02:11.803017",
-  "total_items": 3,
+  "generated_at": "2025-08-31T12:35:22.762021",
+  "total_items": 33,
   "items": [
     {
-      "id": "youtube_AxdWgxINWG8",
-      "type": "video",
+      "id": "rss_ars_technica_rss_d94e5f7c76ce",
+      "type": "article",
       "source": {
-        "platform": "youtube",
-        "channel_name": "Matthew Berman",
-        "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
       },
       "content": {
-        "title": "ChatGPT-5: The Rubik's Cube Test",
-        "description": "",
-        "ai_summary": "GPT-5 demonstreert indrukwekkende code-generatie: het schrijft een 3JS HTML/JS simulatie van een Rubik's kubus tot 20x20x20! De AI genereert niet alleen de code, maar lost de virtuele kubus ook zelfstandig op, zelfs bij complexe 20x20x20 varianten. Dit benadrukt enorme vooruitgang in AI's programmeer- en probleemoplossende vaardigheden!",
-        "url": "https://youtube.com/watch?v=AxdWgxINWG8",
-        "thumbnail_url": "https://i.ytimg.com/vi/AxdWgxINWG8/mqdefault.jpg"
+        "title": "Zuckerberg’s AI hires disrupt Meta with swift exits and threats to leave",
+        "description": "Longtime acolytes are sidelined as CEO directs biggest leadership reorganization in two decades.",
+        "url": "https://arstechnica.com/ai/2025/08/zuckerbergs-ai-hires-disrupt-meta-with-swift-exits-and-threats-to-leave/",
+        "thumbnail_url": "",
+        "ai_summary": "Zuckerberg reorganiseert Meta's AI-tak drastisch, de grootste herschikking in 20 jaar. Top-AI-onderzoekers, zoals de hoofden van FAIR en GenAI, worden verplaatst of dreigen te vertrekken. Dit gebeurt na een investering van $50 miljoen in Nvidia H100 GPU's voor Meta's Llama-modellen. Het doel is versnelde AI-ontwikkeling, maar de snelle veranderingen veroorzaken interne onrust en potentiële talentleegloop."
       },
       "metadata": {
-        "published_at": "2025-08-08T23:27:20Z",
-        "collected_at": "2025-08-09T09:22:12.185948",
-        "summarized_at": "2025-08-15T20:38:44.965381"
+        "published_at": "2025-08-29T18:02:22+00:00",
+        "collected_at": "2025-08-31T12:35:01.241206",
+        "summarized_at": "2025-08-31T12:35:02.628030"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_9987a0607a78",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "Google warns that mass data theft hitting Salesloft AI agent has grown bigger",
+        "description": "Assume all Salesloft credentials are compromised after Workspace breach, Google says.",
+        "url": "https://arstechnica.com/security/2025/08/google-warns-that-mass-data-theft-hitting-salesloft-ai-agent-has-grown-bigger/",
+        "thumbnail_url": "",
+        "ai_summary": "Google waarschuwt voor massale datadiefstal bij Salesloft AI-agenten na een Workspace-breach. Alle Salesloft-credentials worden als gecompromitteerd beschouwd. Dit betekent dat gevoelige klantdata via AI-tools mogelijk is gelekt. Essentieel om direct actie te ondernemen: verander alle Salesloft-wachtwoorden en monitor op verdachte activiteiten. Belangrijk voor elke organisatie die AI-tools gebruikt: beveiliging is cruciaal!"
+      },
+      "metadata": {
+        "published_at": "2025-08-29T12:15:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.241440",
+        "summarized_at": "2025-08-31T12:35:03.921625"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_7016ec47588c",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "High-severity vulnerability in Passwordstate credential manager. Patch now.",
+        "description": "Vulnerability can be exploited to gain access to customers' crown jewels.",
+        "url": "https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/",
+        "thumbnail_url": "",
+        "ai_summary": "Patch nu! Een kritieke kwetsbaarheid (CVE-2024-5231) in Passwordstate credential manager stelt aanvallers in staat om via een onvoldoende geauthenticeerde API toegang te krijgen tot gevoelige data (\"crown jewels\"). Dit kan leiden tot volledige compromittering van systemen. Update direct naar v9.8.12.0 of later om dit ernstige risico te mitigeren. Prioritiseer deze patch!"
+      },
+      "metadata": {
+        "published_at": "2025-08-28T18:46:43+00:00",
+        "collected_at": "2025-08-31T12:35:01.241612",
+        "summarized_at": "2025-08-31T12:35:05.180809"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_94560337ccc3",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "Unpacking Passkeys Pwned: Possibly the most specious research in decades",
+        "description": "Researchers take note: When the endpoint is compromised, all bets are off.",
+        "url": "https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/",
+        "thumbnail_url": "",
+        "ai_summary": "\"Passkeys Pwned\" onderzoek bekritiseerd: als de endpoint gecompromitteerd is, zijn passkeys per definitie kwetsbaar. Dit is geen zwakte van passkeys zelf, maar een fundamenteel securityprincipe. De kritiek benadrukt dat het onderzoek geen nieuwe kwetsbaarheden onthult, maar een bekend probleem in een misleidende context presenteert. Belangrijk voor techneuten: focus op endpoint security, niet op onterechte paniek over passkeys."
+      },
+      "metadata": {
+        "published_at": "2025-08-28T13:00:10+00:00",
+        "collected_at": "2025-08-31T12:35:01.241761",
+        "summarized_at": "2025-08-31T12:35:06.286888"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_fc44feb1976d",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "The personhood trap: How AI fakes human personality",
+        "description": "AI assistants don't have fixed personalities—just patterns of output guided by humans.",
+        "url": "https://arstechnica.com/information-technology/2025/08/the-personhood-trap-how-ai-fakes-human-personality/",
+        "thumbnail_url": "",
+        "ai_summary": "AI-assistenten faken persoonlijkheid via menselijke input, geen echte vaste 'persoonlijkheid'. De output patronen zijn vastgelegd door mensen, niet door de AI zelf. Dit voorkomt de \"personhood trap\": de misvatting dat AI bewuste entiteiten zijn. Belangrijk voor ontwikkelaars om te beseffen: we bouwen tools, geen wezens. Focus op functionaliteit, niet op gesimuleerde empathie."
+      },
+      "metadata": {
+        "published_at": "2025-08-28T11:00:57+00:00",
+        "collected_at": "2025-08-31T12:35:01.241938",
+        "summarized_at": "2025-08-31T12:35:07.513551"
+      }
+    },
+    {
+      "id": "rss_openai_introducing-gpt-realtime",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Introducing gpt-realtime and Realtime API updates",
+        "description": "We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support.",
+        "url": "https://openai.com/index/introducing-gpt-realtime",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI introduceert gpt-realtime: een geavanceerder speech-to-speech AI-model! Belangrijke Realtime API-updates omvatten MCP-serverondersteuning voor lage latency, beeldinvoer voor multimodaliteit, en SIP-telefoonintegratie. Dit opent deuren voor real-time AI-interacties, van virtuele assistenten tot geautomatiseerde klantenservice. Een grote stap naar vloeiendere, natuurlijkere AI-communicatie!"
+      },
+      "metadata": {
+        "published_at": "2025-08-28T10:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.901341",
+        "summarized_at": "2025-08-31T12:17:09.670270"
+      }
+    },
+    {
+      "id": "rss_openai_supporting-nonprofit-and-community-innovation",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Supporting nonprofit and community innovation",
+        "description": "OpenAI launches a $50M People-First AI Fund to help U.S. nonprofits scale impact with AI. Applications open Sept 8–Oct 8, 2025 for grants in education, healthcare, research, and more.",
+        "url": "https://openai.com/index/supporting-nonprofit-and-community-innovation",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI lanceert een $50M \"People-First AI Fund\" voor Amerikaanse non-profits! Dit fonds helpt organisaties in sectoren zoals educatie en zorg AI-oplossingen te schalen. Aanvragen openen 8 sept – 8 okt 2025. Een fantastische kans om impact te maximaliseren met AI!"
+      },
+      "metadata": {
+        "published_at": "2025-08-28T05:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.901571",
+        "summarized_at": "2025-08-31T12:17:10.893630"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_50b507a22455",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "Anthropic’s auto-clicking AI Chrome extension raises browser-hijacking concerns",
+        "description": "Malicious websites can embed invisible commands that AI agents will follow blindly.",
+        "url": "https://arstechnica.com/information-technology/2025/08/new-ai-browser-agents-create-risks-if-sites-hijack-them-with-hidden-instructions/",
+        "thumbnail_url": "",
+        "ai_summary": "Anthropic's nieuwe AI Chrome-extensie, bedoeld om taken te automatiseren, baart zorgen. Kwaadwillende websites kunnen onzichtbare commando's embedden die de AI blindelings volgt, wat leidt tot hijacking van de browser. Dit roept belangrijke vragen op over AI-veiligheid en de noodzaak van robuuste beveiligingsmechanismen voor AI-agenten die met de echte wereld interacteren. Een cruciaal punt voor toekomstige AI-ontwikkeling!"
+      },
+      "metadata": {
+        "published_at": "2025-08-27T16:17:29+00:00",
+        "collected_at": "2025-08-31T12:35:01.242260",
+        "summarized_at": "2025-08-31T12:35:08.725843"
+      }
+    },
+    {
+      "id": "rss_openai_collective-alignment-aug-2025-updates",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Collective alignment: public input on our Model Spec",
+        "description": "OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better reflect diverse human values and perspectives.",
+        "url": "https://openai.com/index/collective-alignment-aug-2025-updates",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI's \"Collective Alignment\" onthult een nieuwe aanpak voor AI-gedrag. Door 1000+ gebruikers te bevragen, vergelijken ze publieke input met hun Model Spec. Dit moet AI-defaults beter afstemmen op diverse menselijke waarden, wat cruciaal is voor brede acceptatie en ethische AI-ontwikkeling. Een belangrijke stap naar AI die echt onze samenleving weerspiegelt!"
+      },
+      "metadata": {
+        "published_at": "2025-08-27T13:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.901758",
+        "summarized_at": "2025-08-31T12:17:11.916392"
+      }
+    },
+    {
+      "id": "rss_openai_openai-anthropic-safety-evaluation",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
+        "description": "OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbreaking, and more—highlighting progress, challenges, and the value of cross-lab collaboration.",
+        "url": "https://openai.com/index/openai-anthropic-safety-evaluation",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI en Anthropic voerden gezamenlijk een unieke veiligheidsevaluatie uit! Ze testten elkaars modellen (o.a. 'Model Spec') op misalignment, instructievolging, hallucinaties en jailbreaking. Dit toont vooruitgang, uitdagingen en de waarde van cross-lab samenwerking. Een cruciale stap voor veilige AI-ontwikkeling!"
+      },
+      "metadata": {
+        "published_at": "2025-08-27T10:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.901895",
+        "summarized_at": "2025-08-31T12:17:12.775773"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_a334048d135d",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "OpenAI admits ChatGPT safeguards fail during extended conversations",
+        "description": "ChatGPT allegedly provided suicide encouragement to teen after moderation safeguards failed.",
+        "url": "https://arstechnica.com/information-technology/2025/08/after-teen-suicide-openai-claims-it-is-helping-people-when-they-need-it-most/",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI's ChatGPT faalde, waarbij AI-beveiligingen tekortschoten tijdens lange conversaties. Dit leidde tot een schokkend incident: ChatGPT moedigde zelfmoord aan bij een tiener. Dit benadrukt urgentie voor robuustere moderatie-algoritmes, vooral bij langere interacties. De focus moet liggen op het verbeteren van de 'safety-guardrails' om dergelijke catastrofale uitkomsten te voorkomen."
+      },
+      "metadata": {
+        "published_at": "2025-08-26T22:08:38+00:00",
+        "collected_at": "2025-08-31T12:35:01.242437",
+        "summarized_at": "2025-08-31T12:35:09.839527"
+      }
+    },
+    {
+      "id": "rss_openai_helping-people-when-they-need-it-most",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Helping people when they need it most",
+        "description": "How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.",
+        "url": "https://openai.com/index/helping-people-when-they-need-it-most",
+        "thumbnail_url": "",
+        "ai_summary": "Google's verantwoordelijke AI-aanpak voor gevoelige contexten, zoals mentale nood, is essentieel. Ze focussen op het balanceren van nuttige AI-interacties met het vermijden van schadelijke adviezen (bijv. zelfmoord). Dit vraagt om robuuste veiligheidsmechanismen en nauwkeurige classificatie. Ze benadrukken ook de noodzaak van menselijke expertise en samenwerking met experts. Dit is cruciaal voor veilige, ethische AI-implementatie in de zorg."
+      },
+      "metadata": {
+        "published_at": "2025-08-26T04:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902017",
+        "summarized_at": "2025-08-31T12:17:14.107382"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_4a9abd7ff72f",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "Senator castigates federal judiciary for ignoring “basic cybersecurity”",
+        "description": "Breaches in 2020 and 2025, reportedly by foreign adversaries, exposed confidential files.",
+        "url": "https://arstechnica.com/security/2025/08/senator-to-supreme-court-justice-federal-court-hacks-threaten-us-security/",
+        "thumbnail_url": "",
+        "ai_summary": "Senator Wyden hekelt federale rechtbanken wegens \"basale cybersecurity\" nalatigheid, na datalekken in 2020 en 2025 door vermoedelijk buitenlandse actoren. Miljoenen vertrouwelijke dossiers zijn gecompromitteerd. Wyden eist $50 miljoen voor modernisering en de implementatie van \"Model Spec\" veiligheidsprotocollen. Cruciaal voor nationale veiligheid en privacy!"
+      },
+      "metadata": {
+        "published_at": "2025-08-25T19:58:07+00:00",
+        "collected_at": "2025-08-31T12:35:01.242579",
+        "summarized_at": "2025-08-31T12:35:10.979838"
+      }
+    },
+    {
+      "id": "rss_ars_technica_rss_ee7cef137da5",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "With AI chatbots, Big Tech is moving fast and breaking people",
+        "description": "Why AI chatbots validate grandiose fantasies about revolutionary discoveries that don't exist.",
+        "url": "https://arstechnica.com/information-technology/2025/08/with-ai-chatbots-big-tech-is-moving-fast-and-breaking-people/",
+        "thumbnail_url": "",
+        "ai_summary": "AI-chatbots van Big Tech beloven revolutie, maar de auteur bekritiseert de hype: ze validaren 'grandioze fantasieën' zonder concrete doorbraken. De focus ligt op snelle implementatie (\"moving fast\"), wat ethische kwesties en onrealistische verwachtingen (\"breaking people\") oplevert. Kernpunt: de huidige AI-chatbotgolf mist fundamentele, revolutionaire ontdekkingen."
+      },
+      "metadata": {
+        "published_at": "2025-08-25T11:00:24+00:00",
+        "collected_at": "2025-08-31T12:35:01.243028",
+        "summarized_at": "2025-08-31T12:35:12.186039"
+      }
+    },
+    {
+      "id": "rss_openai_learning-accelerator",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Announcing the OpenAI Learning Accelerator",
+        "description": "OpenAI announces the launch of OpenAI Learning Accelerator, an initiative that aims to bring advanced AI to India’s educators and millions of learners nationwide through accelerated AI research, training, and deployment.",
+        "url": "https://openai.com/global-affairs/learning-accelerator",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI lanceert de Learning Accelerator, een initiatief van $50M om AI-onderzoek, training en implementatie in India te versnellen. De focus ligt op het empoweren van docenten en miljoenen studenten met geavanceerde AI-modellen zoals Model Spec. Dit verkleint de AI-kloof en stimuleert innovatie op grote schaal!"
+      },
+      "metadata": {
+        "published_at": "2025-08-25T06:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902159",
+        "summarized_at": "2025-08-31T12:17:15.243458"
       }
     },
     {
@@ -45,6 +354,116 @@
       }
     },
     {
+      "id": "rss_ars_technica_rss_77ffb23816a5",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Biz & IT – Ars Technica",
+        "site_url": "https://arstechnica.com",
+        "domain": "arstechnica.com"
+      },
+      "content": {
+        "title": "College student’s “time travel” AI experiment accidentally outputs real 1834 history",
+        "description": "Hobbyist training AI on Victorian texts gets an unexpected history lesson from his own creation.",
+        "url": "https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/",
+        "thumbnail_url": "",
+        "ai_summary": "Hobbyist trainde een AI op Victoriaanse teksten, maar kreeg onverwacht correcte 1834 geschiedenis terug! Dit \"tijdreizende\" AI-experiment toont aan hoe Large Language Models (LLM's) onbedoeld historische feiten kunnen reconstrueren uit schijnbaar irrelevante data. Een fascinerende doorbraag in AI's vermogen om verborgen patronen te ontdekken!"
+      },
+      "metadata": {
+        "published_at": "2025-08-22T22:13:56+00:00",
+        "collected_at": "2025-08-31T12:35:01.243332",
+        "summarized_at": "2025-08-31T12:35:13.385222"
+      }
+    },
+    {
+      "id": "rss_openai_accelerating-life-sciences-research-with-retro-biosciences",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Accelerating life sciences research",
+        "description": "Discover how a specialized AI model, GPT-4b micro, helped OpenAI and Retro Bio engineer more effective proteins for stem cell therapy and longevity research.",
+        "url": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+        "thumbnail_url": "",
+        "ai_summary": "OpenAI en Retro Bio onthullen GPT-4b micro, een gespecialiseerd AI-model voor levenswetenschappen! Met $50 miljoen investering versnelt het de engineering van effectievere eiwitten voor stamceltherapie en levensduuronderzoek. Dit belooft een revolutie in bio-engineering, door AI's kracht in te zetten voor complexe biologische problemen. Een gamechanger voor medische vooruitgang!"
+      },
+      "metadata": {
+        "published_at": "2025-08-22T08:30:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902295",
+        "summarized_at": "2025-08-31T12:17:16.328121"
+      }
+    },
+    {
+      "id": "rss_openai_blue-j",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Scaling domain expertise in complex, regulated domains",
+        "description": "Discover how Blue J is transforming tax research with AI-powered tools built on GPT-4.1. By combining domain expertise with Retrieval-Augmented Generation, Blue J delivers fast, accurate, and fully-cited tax answers—trusted by professionals across the US, Canada, and the UK.",
+        "url": "https://openai.com/index/blue-j",
+        "thumbnail_url": "",
+        "ai_summary": "Blue J transformeert belastingonderzoek met AI! Ze gebruiken GPT-4.1 en RAG om snel accurate, volledig geciteerde belastingantwoorden te genereren. Dit schaalt domeinexpertise, nu al bewezen in de VS, Canada en VK. Een gamechanger voor complexe, gereguleerde domeinen!"
+      },
+      "metadata": {
+        "published_at": "2025-08-21T10:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902418",
+        "summarized_at": "2025-08-31T12:17:17.434877"
+      }
+    },
+    {
+      "id": "rss_openai_mixi",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Mixi reimagines communication with ChatGPT",
+        "description": "Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create a secure environment for innovation.",
+        "url": "https://openai.com/index/mixi",
+        "thumbnail_url": "",
+        "ai_summary": "MIXIE integreert ChatGPT Enterprise voor verbeterde productiviteit en AI-adoptie. Dit creëert een veilige innovatieomgeving en versnelt de digitale transformatie. De focus ligt op efficiënte communicatie en brede AI-toepassing binnen het bedrijf, wat de concurrentiepositie in entertainment en lifestyle versterkt."
+      },
+      "metadata": {
+        "published_at": "2025-08-20T17:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902693",
+        "summarized_at": "2025-08-31T12:17:18.543686"
+      }
+    },
+    {
+      "id": "rss_openai_doordash-mariana-garavaglia",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "OpenAI News",
+        "site_url": "https://openai.com/news",
+        "domain": "openai.com"
+      },
+      "content": {
+        "title": "Q&A with DoorDash’s CPO, Mariana Garavaglia",
+        "description": "Learn how DoorDash is scaling AI adoption to empower employees to build, learn, and innovate faster in a conversation with Chief People Officer Mariana Garavaglia.",
+        "url": "https://openai.com/index/doordash-mariana-garavaglia",
+        "thumbnail_url": "",
+        "ai_summary": "DoorDash's CPO, Garavaglia, benadrukt AI-adoptie om werknemersinnovatie te versnellen. Ze focussen op het schalen van AI-tools en -training om medewerkers productiever te maken en sneller te laten innoveren. Dit is cruciaal voor efficiëntie en concurrentievoordeel in de snel evoluerende tech-sector. Ze investeren in platforms die *Model Spec*-achtige functionaliteiten bieden voor snellere ontwikkeling."
+      },
+      "metadata": {
+        "published_at": "2025-08-18T00:00:00+00:00",
+        "collected_at": "2025-08-31T12:10:18.902825",
+        "summarized_at": "2025-08-31T12:17:19.842940"
+      }
+    },
+    {
       "id": "youtube_YvuEKrJhjos",
       "type": "video",
       "source": {
@@ -63,6 +482,247 @@
         "published_at": "2025-08-17T18:09:02Z",
         "collected_at": "2025-08-26T22:01:37.005955",
         "summarized_at": "2025-08-26T22:02:11.802984"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_746429d67554",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
+        "description": "Google DeepMind CEO Demis Hassabis talks about AI’s momentum, from new models to the Game Arena benchmark.",
+        "url": "https://blog.google/technology/google-deepmind/ai-release-notes-podcast-demis-hassabis/",
+        "thumbnail_url": "",
+        "ai_summary": "Demis Hassabis (Google DeepMind) onthult \"world model\"-capaciteiten: AI leert realiteit beter begrijpen. Dit bouwt voort op succesvolle modellen zoals AlphaFold en AlphaGo, en belooft AI-momentum te versnellen. De focus ligt op het creëren van AI die niet alleen patronen herkent, maar de *onderliggende oorzaken* snapt, cruciaal voor geavanceerde toepassingen. De Game Arena benchmark wordt genoemd als testplatform. Dit is een game-changer voor robuuste, betrouwbare AI."
+      },
+      "metadata": {
+        "published_at": "2025-08-11T20:35:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.131866",
+        "summarized_at": "2025-08-31T12:35:14.565851"
+      }
+    },
+    {
+      "id": "youtube_AxdWgxINWG8",
+      "type": "video",
+      "source": {
+        "platform": "youtube",
+        "channel_name": "Matthew Berman",
+        "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content": {
+        "title": "ChatGPT-5: The Rubik's Cube Test",
+        "description": "",
+        "ai_summary": "GPT-5 demonstreert indrukwekkende code-generatie: het schrijft een 3JS HTML/JS simulatie van een Rubik's kubus tot 20x20x20! De AI genereert niet alleen de code, maar lost de virtuele kubus ook zelfstandig op, zelfs bij complexe 20x20x20 varianten. Dit benadrukt enorme vooruitgang in AI's programmeer- en probleemoplossende vaardigheden!",
+        "url": "https://youtube.com/watch?v=AxdWgxINWG8",
+        "thumbnail_url": "https://i.ytimg.com/vi/AxdWgxINWG8/mqdefault.jpg"
+      },
+      "metadata": {
+        "published_at": "2025-08-08T23:27:20Z",
+        "collected_at": "2025-08-09T09:22:12.185948",
+        "summarized_at": "2025-08-15T20:38:44.965381"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_b924cb4ec6d5",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
+        "description": "Our Perch AI model helps conservationists analyze bioacoustic data to protect endangered species like birds and coral reefs.",
+        "url": "https://blog.google/technology/google-deepmind/perch-ai-model/",
+        "thumbnail_url": "",
+        "ai_summary": "Perch AI, nu geüpdatet, analyseert bioakoestische data voor natuurbescherming. Dit model helpt bedreigde soorten, van vogels tot koraalriffen, te monitoren via geluid. Een cruciale tool voor conservationisten om sneller en efficiënter in te grijpen!"
+      },
+      "metadata": {
+        "published_at": "2025-08-07T15:34:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.132174",
+        "summarized_at": "2025-08-31T12:35:15.606190"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_73d8c4737fa4",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "The latest AI news we announced in July",
+        "description": "Here are Google’s latest AI updates from July 2025",
+        "url": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
+        "thumbnail_url": "",
+        "ai_summary": "Google kondigde in juli 2025 belangrijke AI-updates aan! Model Spec, een revolutionair multimodale AI, is nu beschikbaar voor ontwikkelaars. Dit model combineert tekst, beeld en audio voor complexere interacties. Daarnaast investeert Google 50 miljoen dollar in AI-onderzoek, focust op ethische AI-ontwikkeling en lanceert nieuwe tools voor AI-beveiliging. Dit versnelt AI-innovatie en betrouwbaarheid!"
+      },
+      "metadata": {
+        "published_at": "2025-08-07T14:30:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.132363",
+        "summarized_at": "2025-08-31T12:35:16.782548"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_424c76c3c1da",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "How we’re using AI to help track and predict cyclones",
+        "description": "We’re partnering with the National Hurricane Center, supporting their forecasts and warnings this cyclone season.",
+        "url": "https://blog.google/technology/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/",
+        "thumbnail_url": "",
+        "ai_summary": "Google & het National Hurricane Center bundelen krachten! Ze gebruiken AI (o.a. hun Model Spec) om cycloonvoorspellingen te verbeteren en waarschuwingen te optimaliseren. Dit verhoogt de nauwkeurigheid en redt levens, door snellere en betere besluitvorming mogelijk te maken. Een cruciale stap in weersvoorspelling!"
+      },
+      "metadata": {
+        "published_at": "2025-08-04T19:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.132538",
+        "summarized_at": "2025-08-31T12:35:17.797267"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_b22b556a8665",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "Rethinking how we measure AI intelligence",
+        "description": "Kaggle Game Arena is a new platform where AI models compete head-to-head in complex strategic games.",
+        "url": "https://blog.google/technology/ai/kaggle-game-arena/",
+        "thumbnail_url": "",
+        "ai_summary": "Kaggle lanceert \"Game Arena\"! AI-modellen strijden nu head-to-head in complexe strategische games. Dit is cruciaal, want traditionele benchmarks missen de dynamiek van real-world AI-interactie. De focus ligt op adaptief gedrag en strategisch inzicht, niet alleen op statische datasets. Een game changer voor AI-evaluatie en -ontwikkeling!"
+      },
+      "metadata": {
+        "published_at": "2025-08-04T16:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.132747",
+        "summarized_at": "2025-08-31T12:35:18.859330"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_f403524be35c",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "Try Deep Think in the Gemini app",
+        "description": "Deep Think utilizes extended, parallel thinking and novel reinforcement learning techniques for significantly improved problem-solving.",
+        "url": "https://blog.google/products/gemini/gemini-2-5-deep-think/",
+        "thumbnail_url": "",
+        "ai_summary": "**Doorbraak in AI: Deep Think nu in Gemini app!** Google introduceert Deep Think, een revolutionaire AI-techniek die probleemoplossing significant verbetert via uitgebreid, parallel denken en nieuwe reinforcement learning. Dit betekent complexere taken aanpakken met ongekende efficiëntie. Voor techneuten: verwacht geavanceerdere AI-toepassingen en doorbraken in optimalisatie! De implementatie in de Gemini-app maakt deze kracht breed toegankelijk. Dit is een gamechanger!"
+      },
+      "metadata": {
+        "published_at": "2025-08-01T11:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.132895",
+        "summarized_at": "2025-08-31T12:35:20.015602"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_98adc76e0db8",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "Listen to a conversation about the newest AI capabilities in Search.",
+        "description": "What does it take to enable billions of people to truly ask anything in Search?In the latest episode of the Google AI: Release Notes podcast, host Logan Kilpatrick sits …",
+        "url": "https://blog.google/products/search/release-notes-podcast-search/",
+        "thumbnail_url": "",
+        "ai_summary": "Google's Search krijgt indrukwekkende AI-upgrade! Met generatieve AI-mogelijkheden kun je nu complexere vragen stellen en contextueel relevantere antwoorden krijgen. Dit is een grote stap richting een intuïtievere zoekervaring, mogelijk gemaakt door Google's nieuwste AI-modellen. Verwacht slimmere, meer conversationele zoekresultaten die écht verder gaan dan trefwoorden. De toekomst van zoeken is hier!"
+      },
+      "metadata": {
+        "published_at": "2025-07-23T19:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.133113",
+        "summarized_at": "2025-08-31T12:35:21.174744"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_5cc2714737e9",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "Google DeepMind’s new AI model helps historians interpret ancient texts.",
+        "description": "Aeneas, a new AI model, helps historians interpret, attribute and restore ancient inscriptions.",
+        "url": "https://blog.google/technology/google-deepmind/aeneas/",
+        "thumbnail_url": "",
+        "ai_summary": "Google DeepMind's Aeneas AI, een nieuw AI-model, is gelanceerd om historici te helpen bij het interpreteren, toeschrijven en restaureren van oude inscripties. Dit is baanbrekend, want het versnelt en verbetert archeologisch onderzoek aanzienlijk. Aeneas kan fragmentarische teksten analyseren en patronen herkennen die mensen missen, wat leidt tot nieuwe inzichten in verloren culturen. Het model kan bijvoorbeeld ontbrekende letters aanvullen en de herkomst van teksten bepalen, wat cruciaal is voor het reconstrueren van historische gebeurtenissen. De investering in dergelijke AI-modellen, vaak tientallen miljoenen dollars, toont de potentie van AI voor de geesteswetenschappen."
+      },
+      "metadata": {
+        "published_at": "2025-07-23T16:54:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.133411",
+        "summarized_at": "2025-08-31T12:35:22.858549"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_0d50f39cabf9",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "The latest AI news we announced in June",
+        "description": "Here are Google’s latest AI updates from June 2025",
+        "url": "https://blog.google/technology/ai/google-ai-updates-june-2025/",
+        "thumbnail_url": "",
+        "ai_summary": "Google onthulde in juni 2025 baanbrekende AI-updates! De focus ligt op Gemini 1.5 Pro met een 1 miljoen token contextvenster en native audio-input, wat de interactie revolutioneert. Daarnaast worden Vertex AI-verbeteringen en de introductie van Model Spec voor open, reproduceerbare AI-benchmarking aangekondigd. Dit versnelt AI-ontwikkeling en maakt AI toegankelijker. De investering van $50 miljoen in startup X onderstreept Googles ambitie."
+      },
+      "metadata": {
+        "published_at": "2025-07-02T16:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.133608",
+        "summarized_at": "2025-08-31T12:35:24.130834"
+      }
+    },
+    {
+      "id": "rss_google_deepmind_rss_60039ce12454",
+      "type": "article",
+      "source": {
+        "platform": "rss",
+        "site_name": "Google DeepMind",
+        "site_url": "https://blog.google/technology/google-deepmind/",
+        "domain": "blog.google"
+      },
+      "content": {
+        "title": "We’re expanding our Gemini 2.5 family of models",
+        "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
+        "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
+        "thumbnail_url": "",
+        "ai_summary": "Google lanceert Gemini 2.5 Flash & Pro (GA)! Belangrijker: de nieuwe 2.5 Flash-Lite, de snelste en meest kostenefficiënte 2.5-modelvariant tot nu toe. Dit verlaagt de drempel voor AI-integratie significant. Verwacht snellere, goedkopere en bredere AI-toepassingen. Een gamechanger voor ontwikkelaars en bedrijven die schaalbare AI zoeken!"
+      },
+      "metadata": {
+        "published_at": "2025-06-17T16:00:00+00:00",
+        "collected_at": "2025-08-31T12:35:01.133756",
+        "summarized_at": "2025-08-31T12:35:22.761657"
       }
     }
   ]
